@@ -1,6 +1,16 @@
 package kotl
 
 fun main() {
+//    println(sum(1, 2, 4, 65, 7))
+//    println(crop("qwerty"))
+//    val result = sum(1, 2, 3, 4, 5, 7, 8)
+//    println("Сумма: $result")
+//    printInfo(patronymic = "Ivanovich", lastname = "Ivanov", name = "Ivan")
+//    println(volume(10, 5, 7))
+//    println(sum("10", "wef5gsdre"))
+}
+
+
 //    val a: String? = null
 //    val b: String? = "235324"
 //    val c: String? = ""
@@ -116,14 +126,14 @@ fun main() {
 //    }
 
 
-//    println(sum(1,2,4,65,7))
-//    printInfo(patronymic = "Иванович")
-}
+//fun max(a: Int, b: Int) = if (a > b) a else b
+//fun crop(str: String) = str.substring(0, Math.min(5, str.length))
+//fun sum(vararg numbers: Int): Int = numbers.sum()
 
 
-//fun printInfo(lastName: String = "", name: String = "", patronymic: String = "") {
-//    if (lastName.isNotEmpty()) {
-//        println("Фамилия: $lastName")
+//fun printInfo(lastname: String = "", name: String = "", patronymic: String = "") {
+//    if (lastname.isNotEmpty()) {
+//        println("Фамилия: $lastname")
 //    }
 //    if (name.isNotEmpty()) {
 //        println("Имя: $name")
@@ -134,17 +144,21 @@ fun main() {
 //}
 
 
-//fun max(a: Int, b: Int) = if (a > b) a else b
-//
-//fun crop(str: String) = str.substring(0, Math.min(5, str.length))
-//
-//fun sum(vararg numbers: Int): Int {
-//    var result = 0
-//    for (num in numbers) {
-//        result += num
+//fun volume(a: Int, b: Int = a, c: Int = a) = a * b * c
+
+
+//fun sum(a: String, b: String): Int {
+//    return try {
+//        val numA = a.toInt()
+//        val numB = b.toInt()
+//        numA + numB
+//    } catch (e: Exception) {
+//        0
 //    }
-//    return result
 //}
+
+
+
 
 
 
