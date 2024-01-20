@@ -1,4 +1,4 @@
-package kotl
+package KotlinFun
 
 var name: String? = "deryedrydry"
 

@@ -1,6 +1,4 @@
-package kotl
-
-import jav.Main
+package KotlinFun
 
 fun main() {
 //    val square: (Int) -> Int = { it * it }

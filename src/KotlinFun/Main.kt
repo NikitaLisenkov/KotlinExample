@@ -1,4 +1,4 @@
-package kotl
+package KotlinFun
 
 fun main() {
 //    println(sum(1, 2, 4, 65, 7))

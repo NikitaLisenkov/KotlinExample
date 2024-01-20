@@ -1,4 +1,4 @@
-package kotl
+package KotlinFun
 
 fun main() {
 //val result = modifyString("Hello world!") { it.toUpperCase() }
