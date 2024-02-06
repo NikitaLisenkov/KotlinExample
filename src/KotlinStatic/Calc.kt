@@ -8,3 +8,7 @@ class Calc {
         fun lengthOfCircle(radius: Float) = 2 * PI * radius
     }
 }
+
+fun main() {
+    println(Calc.lengthOfCircle(5f))
+}

@@ -10,3 +10,10 @@ class MyRandom {
         fun randomDaysOfWeek() = DaysOfWeek.values().random()
     }
 }
+
+
+fun main() {
+    println(MyRandom.randomInt())
+    println(MyRandom.randomBoolean())
+    println(MyRandom.randomDaysOfWeek())
+}
